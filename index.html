@@ -18,6 +18,29 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.ts"></script>
+    <div class="window">
+      <div class="button">
+        <button class="redbutton"></button>
+        <button class="yellowbutton"></button>
+        <button class="greenbutton"></button>
+      </div>
+      <div class="title">
+        <hi>Safari - Chrome</hi>
+      </div>
+     <div class="searchbutton">
+       <input class="urlbutton" type="url">
+       <input class="searchbutton1" type="button" value="🔍">
+     </div>
+      <div class="browsermenu">
+        <iframe class="iframemenu" src="https://google.com">
+          <script>
+            document.getElementById('iframemenu').contentWindow.location.replace('iframemenu or urlbutton');{
+              
+            };
+          </script>
+        </iframe>
+      </div>
+    </div>
   </body>
 
   <script type="module">
