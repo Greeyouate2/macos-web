@@ -25,26 +25,31 @@
             right: 40px;
         }
         .iframemenu{
-            width: 54em;
-            height: 34em;
+            width: 57em;
+            height: 32em;
         }
+        .redbutton{
+            background:red;
+        }
+        .yellowbutton{
+            background:yellow;
+        }
+        .greenbutton{
+            background:yellow;
+        }
+        
     </style>
     <div class="window">
+     <div class="buttons">
+       <button class="redbutton"></button>
+       <button class="yellowbutton"></button>
+       <button class="greenbutton"></button>
+     </div>      
       <div class="title">
         <hi>Safari</hi>
       </div>
-     <div class="searchbutton">
-       <input class="urlbutton" type="url">
-       <input class="searchbutton1" type="button" value="🔍">
-     </div>
       <div class="browsermenu">
         <iframe class="iframemenu" src="https://greeyousearch.f5.si">
-          <script>
-            document.getElementById('iframemenu').contentWindow.location.replace('iframemenu or urlbutton');{
-              var iframeurl('iframemenu')
-              contentWindow.location.replace('iframeurl or urlbutton') 
-            };
-          </script>
         </iframe>
       </div>
     </div>
